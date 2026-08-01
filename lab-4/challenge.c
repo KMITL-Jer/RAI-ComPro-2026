@@ -5,7 +5,7 @@ int main(){
     int choice;
     float balance = 0.00, tempfunds;
     do{
-        printf("\n===== ATM MENU ======\n");
+        printf("===== ATM MENU ======\n");
         printf("1. Check Balance\n");
         printf("2. Deposit Money\n");
         printf("3. Withdraw Money\n");
@@ -27,7 +27,7 @@ int main(){
                 printf("Withdrawal successful.\n");
             }
             else{
-                printf("Insufficient funds");
+                printf("Insufficient funds\n");
             }
         }
     }
